@@ -1,0 +1,159 @@
+ <article>
+    <!-- Offerings Section -->
+    <div class="offers-pane">
+      <div class="box red">
+        <h3>User Experience</h3>
+        <img src="images/ux-icon.png"> <a href="javascript:void(0);" title="Read more..."><img src="images/read-more.png"></a> </div>
+      <div class="box green">
+        <h3>Content</h3>
+        <img src="images/content-icon.png"> <a href="javascript:void(0);" title="Read more..."><img src="images/read-more.png"></a> </div>
+      <div class="box pink">
+        <h3>Commerce</h3>
+        <img src="images/commerce-icon.png"> <a href="javascript:void(0);" title="Read more..."><img src="images/read-more.png"></a> </div>
+      <div class="box blue">
+        <h3>Marketing & Channel Analytics</h3>
+        <img src="images/marketing-icon.png"> <a href="javascript:void(0);" title="Read more..."><img src="images/read-more.png"></a> </div>
+      <div class="box yellow">
+        <h3>Portals</h3>
+        <img src="images/portal-icon.png"> <a href="javascript:void(0);" title="Read more..."><img src="images/read-more.png"></a> </div>
+    </div>
+    <!-- Offerings Section Ends -->
+    <div class="cb"></div>
+    <!-- Bottom Section-->
+    <div class="bottom-pane">
+      <div class="newsletter">
+        <h2>Newsletter</h2>
+        <div class="content"> <img src="images/news-icon.png">
+          <p>To recieve Digital Services Offerings newsletters</p>
+          <input type="button" class="common-btn" value="Subscribe">
+        </div>
+      </div>
+      <div class="key-contacts">
+        <h2>Key Contacts</h2>
+        <div class="photos">
+         <div class="content-slider">
+            	<div class="slides">
+                	<div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                 </div>
+                  <div class="slides">
+                	<div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                 </div>
+                 <div class="slides">
+                	<div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                 </div>
+                 <div class="slides">
+                	<div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                     <div class="pop-content-box">
+                    	<div><img src="images/kc1.png"></div>
+                     </div>
+                 </div>
+                 </div>      
+        <!--  <ul>
+            <li><img src="images/kc1.png"></li>
+            <li><img src="images/kc2.png"></li>
+            <li><img src="images/kc3.png"></li>
+            <li><img src="images/kc4.png"></li>
+            <li><img src="images/kc2.png"></li>
+            <li><img src="images/kc1.png"></li>
+            <li><img src="images/kc4.png"></li>
+            <li><img src="images/kc3.png"></li>
+            <li><img src="images/kc2.png"></li>
+          </ul>-->
+        </div>
+        <!--<script>
+                        (function($){
+                            $(window).load(function(){
+                                $(".photos").mCustomScrollbar({
+                                    scrollButtons:{
+                                        enable:true
+                                    }
+                                });
+                            });
+                        })(jQuery);
+                    </script>-->
+                    
+                     <script type='text/javascript' src='js/jquery.slides.min.js'></script> 
+					 <script>
+                       $(document).ready(function(){                        
+							$('.photos > .content-slider').slidesjs({
+														  height:290,
+														  play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: {
+      			slide: {
+        // Slide effect settings.
+        					speed: 20000
+          // [number] Speed in milliseconds of the slide animation.
+      					}
+	 		  },
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+         },
+														  pagination: {
+																   active: false
+																   }
+														  });
+							});
+					   </script>
+      </div>
+    </div>
+    <!-- Bottom Section Ends-->
+  </article>

@@ -1,0 +1,82 @@
+<section>
+    <!-- Top Section -->
+    <div class="banner">
+     ${currentStyle.section}
+
+
+      </ul>
+    
+      <!-- Animated Banner -->
+      <div class="camera_wrap camera_azure_skin" id="animated">
+        <div data-src=${currentStyle.image1}></div>
+        <div data-src=${currentStyle.image2}></div>
+        <div data-src="images/banner3.jpg"></div>
+        <div data-src="images/banner4.jpg"></div>
+        <div data-src="images/banner5.jpg"></div>
+         <div data-src="images/banner6.jpg"></div>
+      </div>
+      <script type='text/javascript' src='js/camera.min.js'></script>
+      <script>   
+				
+					jQuery(function(){	
+							jQuery('#animated').camera({
+								thumbnails: false,
+								navigationHover: false,
+								fx: 'curtainTopLeft',								
+								height: '39.7%',
+								portrait: true,
+								loader: 'none',
+								playPause: false
+								
+							});				
+				
+				   });
+   			    </script>
+      <!-- Animated Banner Ends  -->
+      
+      <!-- Whats New Section -->
+      <div class="whats-new">
+        <h2>What’s New</h2>
+        <div class="new-content">
+          <ul>
+            <li> <a>Lorem ipsum dolor sit amet consectetuer</a>
+              <p>adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </li>
+            <li> <a>Lorem ipsum dolor sit amet consectetuer</a>
+              <p>adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </li>
+            <li> <a>Lorem ipsum dolor sit amet consectetuer</a>
+              <p>adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </li>
+          </ul>
+        </div>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script>
+                        (function($){
+                            $(window).load(function(){
+                                $(".new-content").mCustomScrollbar({
+                                    scrollButtons:{
+                                        enable:true
+                                    }
+                                });
+                            });
+                        })(jQuery);
+                    </script>
+      </div>
+      <!-- Whats New Section Ends -->
+      <!--Proposal Section -->
+      <div class="proposal-center">
+        <h2>
+			<a href="javascript:void(0);" title="Proposal Center">
+				Proposal Center
+			</a>
+		</h2>
+        <a href="javascript:void(0);" class="mail" title="e-mail">
+			<img src="images/mail-icon.png">
+			<span>Contact</span>
+		</a> 
+	  </div>
+      <!--Proposal Section Ends  -->
+    </div>
+    <!-- Top Section Ends -->
+  </section>

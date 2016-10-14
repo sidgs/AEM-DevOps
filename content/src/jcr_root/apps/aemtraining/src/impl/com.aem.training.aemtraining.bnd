@@ -1,0 +1,7 @@
+Export-Package: com.aem.training.aemtraining
+Private-Package: com.aem.training.aemtraining.impl
+Bundle-Name: Sample project aemtraining
+Bundle-Description: Contains the aemtraining sample bundle
+Bundle-SymbolicName: com.aem.training.aemtraining
+Bundle-Version: 1.0-SNAPSHOT
+Bundle-Activator: com.aem.training.aemtraining.impl.Activator
